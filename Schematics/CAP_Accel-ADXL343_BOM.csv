@@ -1,0 +1,6 @@
+Reference,Value,Footprint,Count,Manufacturer,Mfg_Part_No,Mfg_Package_Suffix,Alt_Manufacturer,Alt_Mfg_Part_No,Alt_Mfg_Package_Suffix,Contract_Manuf_SKU
+K2,CAP_CONN_RHS,Toadstool:Socket_Strip_Stackable_1x06,1,,,,,,,
+K1,CAP_CONN_LHS,Toadstool:Socket_Strip_Stackable_1x06,1,,,,,,,
+U1,ADXL343,Toadstool:ADXL343-LGA-14,1,Analog Devices,ADXL343BCCZ,-,-,-,-,-
+C1,10uF,Toadstool:c_elec_4x5.3,1,Nichicon,UWX1C100MCL1GB,-,-,-,-,-
+C2;C3,0.1uF;0.1uF,Capacitors_SMD:C_0805,2,Kemet,C0805C104K5RACTU,-,-,-,-,-

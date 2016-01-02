@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by Cvpcb (2015-04-22 BZR 5620)-product   date = 2015/08/03 3:37:41 PM
+
+BeginCmp
+TimeStamp = /55BF6765;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = Toadstool:c_elec_4x5.3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55BF682C;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55BF6B66;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5511B90D;
+Reference = K1;
+ValeurCmp = CAP_CONN_LHS;
+IdModule  = Toadstool:Socket_Strip_Stackable_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /5511B5B6;
+Reference = K2;
+ValeurCmp = CAP_CONN_RHS;
+IdModule  = Toadstool:Socket_Strip_Stackable_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /55BF614B;
+Reference = U1;
+ValeurCmp = ADXL343;
+IdModule  = Toadstool:ADXL343-LGA-14;
+EndCmp
+
+EndListe

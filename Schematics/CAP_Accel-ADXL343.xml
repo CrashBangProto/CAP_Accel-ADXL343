@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:/OneDrive/KiCad Projects/Toadstool/CAP_Accel-ADXL343/Schematics/CAP_Accel-ADXL343.sch</source>
+    <date>06/09/2015 21:03:41</date>
+    <tool>Eeschema (2015-04-22 BZR 5620)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Toadstool Cap - Accelerometer ADX343</title>
+        <company>Crash-Bang Prototyping</company>
+        <rev>0.1</rev>
+        <date/>
+        <source>CAP_Accel-ADXL343.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="K2">
+      <value>CAP_CONN_RHS</value>
+      <footprint>Toadstool:Socket_Strip_Stackable_1x06</footprint>
+      <libsource lib="toadstool" part="CAP_CONN_RHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5511B5B6</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>CAP_CONN_LHS</value>
+      <footprint>Toadstool:Socket_Strip_Stackable_1x06</footprint>
+      <libsource lib="toadstool" part="CAP_CONN_LHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5511B90D</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ADXL343</value>
+      <footprint>Toadstool:ADXL343-LGA-14</footprint>
+      <fields>
+        <field name="Manufacturer">Analog Devices</field>
+        <field name="Mfg_Part_No">ADXL343BCCZ</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">-</field>
+        <field name="Alt_Mfg_Part_No">-</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+        <field name="Contract_Manuf_SKU">-</field>
+      </fields>
+      <libsource lib="toadstool" part="ADXL343"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55BF614B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Toadstool:c_elec_4x5.3</footprint>
+      <fields>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Mfg_Part_No">UWX1C100MCL1GB</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">-</field>
+        <field name="Alt_Mfg_Part_No">-</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+        <field name="Contract_Manuf_SKU">-</field>
+      </fields>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55BF6765</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Mfg_Part_No">C0805C104K5RACTU</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">-</field>
+        <field name="Alt_Mfg_Part_No">-</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+        <field name="Contract_Manuf_SKU">-</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55BF682C</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Mfg_Part_No">C0805C104K5RACTU</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">-</field>
+        <field name="Alt_Mfg_Part_No">-</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+        <field name="Contract_Manuf_SKU">-</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55BF6B66</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>SMD*_Pol</fp>
+        <fp>c_elec*</fp>
+        <fp>C*elec</fp>
+        <fp>TantalC*</fp>
+        <fp>Elko*</fp>
+        <fp>CP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="toadstool" part="ADXL343">
+      <description>Analog Devices Accelerometer ADXL343</description>
+      <footprints>
+        <fp>LGA</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADXL343</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="RESERVED_VS" type="NotConnected"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VS" type="power_in"/>
+        <pin num="7" name="~CS" type="BiDi"/>
+        <pin num="8" name="INT1" type="BiDi"/>
+        <pin num="9" name="INT2" type="BiDi"/>
+        <pin num="10" name="NC" type="NotConnected"/>
+        <pin num="11" name="RESERVED_GND" type="NotConnected"/>
+        <pin num="12" name="SDO" type="input"/>
+        <pin num="13" name="SDI" type="BiDi"/>
+        <pin num="14" name="SCLK" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="toadstool" part="CAP_CONN_RHS">
+      <description>Toadstool Cap Connector (Right)</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">CAP_CONN_RHS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MOSI" type="BiDi"/>
+        <pin num="2" name="SS1" type="BiDi"/>
+        <pin num="3" name="~RESET" type="BiDi"/>
+        <pin num="4" name="VCC" type="power_out"/>
+        <pin num="5" name="SCL" type="BiDi"/>
+        <pin num="6" name="RXD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="toadstool" part="CAP_CONN_LHS">
+      <description>Toadstool Cap Connector (Left)</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">CAP_CONN_LHS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="BiDi"/>
+        <pin num="2" name="SCK" type="BiDi"/>
+        <pin num="3" name="SS2" type="BiDi"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="TXD" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\KiCad\kicad\share\library\device.lib</uri>
+    </library>
+    <library logical="toadstool">
+      <uri>E:\OneDrive\KiCad Projects\Toadstool\Library\toadstool.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/MOSI">
+      <node ref="U1" pin="13"/>
+      <node ref="K2" pin="1"/>
+    </net>
+    <net code="2" name="/SS1">
+      <node ref="K2" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="3" name="/SCL">
+      <node ref="K2" pin="5"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="4" name="/SDA">
+      <node ref="U1" pin="8"/>
+      <node ref="K1" pin="5"/>
+    </net>
+    <net code="5" name="/SCK">
+      <node ref="K1" pin="2"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="6" name="/MISO">
+      <node ref="K1" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="K1" pin="4"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="8" name="VCC">
+      <node ref="K2" pin="4"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="9" name="/SS2">
+      <node ref="K1" pin="3"/>
+    </net>
+    <net code="10" name="/TXD">
+      <node ref="K1" pin="6"/>
+    </net>
+    <net code="11" name="/RST">
+      <node ref="K2" pin="3"/>
+    </net>
+    <net code="12" name="/RXD">
+      <node ref="K2" pin="6"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+  </nets>
+</export>
